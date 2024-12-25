@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Crepidotus cesatii (Rabenh.) Sacc. 1877",
+    "spore_measurements": "3.8-4 × 3.6-3.79 µm, Q=1-1.07",
+    "shape": "ellipsoid",
+    "cite": ""
+  },
+  {
+    "name": "Crepidotus crocophyllus (Berk.) Sacc. 1887",
+    "spore_measurements": "6.0-6.6 × 5.5-6.0 µm, Q=1-1.1",
+    "shape": "ellipsoid",
+    "cite": "Anton Hausknecht, Irmgard Krisai-Greilhuber (2010): Die Gattung Crepidotus in Österreich. – Österreichische Zeitschrift für Pilzkunde – 19: 53 - 91."
+  },
+  {
+    "name": "Crepidotus luteolus (Lambotte) Sacc. 1887",
+    "spore_measurements": "7-10 × 4-5.5 µm, Q=1.7-2.2",
+    "shape": "ellipsoid",
+    "cite": "Anton Hausknecht, Irmgard Krisai-Greilhuber (2010): Die Gattung Crepidotus in Österreich. – Österreichische Zeitschrift für Pilzkunde – 19: 53 - 91."
+  },
+  {
+    "name": "Crepidotus variabilis (Pers.) P. Kumm. 1871",
+    "spore_measurements": "5.0-6.8 × 3.0-3.8 µm, Q=1.6-2",
+    "shape": "ellipsoid",
+    "cite": ""
+  }
+]

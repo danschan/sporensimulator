@@ -1,0 +1,15 @@
+{
+  "name": "svg-generator",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "svg_generator_bg.wasm",
+    "svg_generator.js",
+    "svg_generator.d.ts"
+  ],
+  "main": "svg_generator.js",
+  "types": "svg_generator.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
