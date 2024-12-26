@@ -74,6 +74,17 @@ const MushroomSporeApp = () => {
     }
   };
 
+  const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        setUploadedImage(e.target?.result as string);
+      };
+      reader.readAsDataURL(file);
+    }
+  };
+
   return (
     <div className="flex h-screen bg-gray-100">
       {/* Left Section - Search Navigation */}
@@ -177,7 +188,17 @@ const MushroomSporeApp = () => {
             {/* Drag Overlay */}
             {!uploadedImage && (
               <div className="absolute inset-0 flex items-center justify-center text-gray-500 pointer-events-none">
-                Bild hier ablegen
+                Bild hier ablegen oder<a href="#" onClick={(e) => {
+                    e.preventDefault();
+                    document.getElementById('fileInput')?.click();
+                  }}
+                  className="pointer-events-auto ml-2 text-blue-500 underline">auswählen</a>
+                <input
+                  type="file"
+                  id="fileInput"
+                  style={{ display: 'none' }}
+                  onChange={handleFileUpload}
+                />
               </div>
             )}
           </div>
